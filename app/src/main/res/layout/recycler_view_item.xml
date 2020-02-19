@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewholderroot"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/tvLetter"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:background="#000000"
+            android:focusable="false"
+            android:gravity="center"
+            android:lines="1"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_Show_Number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:textSize="10dp"
+            android:visibility="visible" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
